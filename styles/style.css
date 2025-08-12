@@ -270,6 +270,10 @@ ol {
   color: #fff;
 }
 
+.content_card-link:active {
+  background-color: #545050;
+}
+
 .content__card-link:focus {
   outline: none;
 }
@@ -281,8 +285,7 @@ ol {
 }
 
 .content__card-link_current {
-  background-color: inherit;
-;
+  background-color: #545050;
 }
 
 .content__card-link:hover {
@@ -293,12 +296,8 @@ ol {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: flex-start;
-  background-color: #1b1919;
 }
 
-.content__video-card:active {
-  background-color: #545050;
-}
 .content__video-card-description-container {
   padding-inline-start: 2px;
 }
